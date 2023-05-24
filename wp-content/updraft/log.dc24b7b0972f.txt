@@ -1,0 +1,389 @@
+0000.002 (0) Opened log file at time: Wed, 24 May 2023 17:26:14 +0000 on http://localhost/MonSite
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.0.28 (apache2handler, Windows NT DESKTOP-MGPK4QU 10.0 build 22621 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 61.5M | 74M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 11907.9 MB
+0000.015 (0) Tasks: Backup files: 1 (schedule: every2hours) Backup DB:  (schedule: every2hours)
+0000.019 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.034 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1684947517, seconds_ago=1657)
+0000.041 (0) Set semaphore last lock (fd) time to 2023-05-24 17:26:14
+0000.043 (0) Semaphore lock (fd) complete
+0000.053 (0) Backup run: resumption=0, nonce=dc24b7b0972f, file_nonce=dc24b7b0972f begun at=1684949174 (0s ago), job type=backup
+0000.057 (0) Scheduling a resumption (1) after 300 seconds (1684949474) in case this run gets aborted
+0000.078 (0) Checking if we have a zip executable available
+0000.084 (0) Creation of backups of directories: beginning
+0000.094 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.241 (0) Total entities for the zip file: 1301 directories, 5989 files (0 skipped as non-modified), 100.8 MB
+0004.256 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.471 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 100 files added (on-disk size: 236.8 KB)
+0004.542 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 200 files added (on-disk size: 236.8 KB)
+0004.611 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 300 files added (on-disk size: 236.8 KB)
+0004.692 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 400 files added (on-disk size: 236.8 KB)
+0004.762 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 500 files added (on-disk size: 236.8 KB)
+0004.811 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 5989 files batched, 568 (569) added so far); re-opening (prior size: 236.8 KB)
+0007.831 (0) A useful amount of data was added after this amount of zip processing: 3.6 s (normalised: 3.6 s, rate: 7140.3 KB/s)
+0007.838 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.5963890552521, normalised_time=3.5852671556436, max_time=7.8332211971283, data points known=1, old_max_bytes=26214400, new_max_bytes=43870203)
+0007.893 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 600 files added (on-disk size: 7130.5 KB)
+0007.959 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 700 files added (on-disk size: 7130.5 KB)
+0008.025 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 800 files added (on-disk size: 7130.5 KB)
+0008.089 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 900 files added (on-disk size: 7130.5 KB)
+0008.175 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 1000 files added (on-disk size: 7130.5 KB)
+0008.250 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 1100 files added (on-disk size: 7130.5 KB)
+0008.318 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 1200 files added (on-disk size: 7130.5 KB)
+0008.384 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 1300 files added (on-disk size: 7130.5 KB)
+0008.451 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 1400 files added (on-disk size: 7130.5 KB)
+0008.521 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 1500 files added (on-disk size: 7130.5 KB)
+0008.572 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.1 MB, 5989 files batched, 1001 (1570) added so far); re-opening (prior size: 7130.5 KB)
+0010.970 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 1600 files added (on-disk size: 13199.8 KB)
+0011.043 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 1700 files added (on-disk size: 13199.8 KB)
+0011.108 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 1800 files added (on-disk size: 13199.8 KB)
+0011.194 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 1900 files added (on-disk size: 13199.8 KB)
+0011.264 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 2000 files added (on-disk size: 13199.8 KB)
+0011.336 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 2100 files added (on-disk size: 13199.8 KB)
+0011.407 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 2200 files added (on-disk size: 13199.8 KB)
+0011.478 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 2300 files added (on-disk size: 13199.8 KB)
+0011.547 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 2400 files added (on-disk size: 13199.8 KB)
+0011.614 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 2500 files added (on-disk size: 13199.8 KB)
+0011.685 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.6 MB, 5989 files batched, 1001 (2571) added so far); re-opening (prior size: 13199.8 KB)
+0014.029 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 2600 files added (on-disk size: 16417.6 KB)
+0014.103 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 2700 files added (on-disk size: 16417.6 KB)
+0014.190 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 2800 files added (on-disk size: 16417.6 KB)
+0014.256 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 2900 files added (on-disk size: 16417.6 KB)
+0014.322 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 3000 files added (on-disk size: 16417.6 KB)
+0014.392 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 3100 files added (on-disk size: 16417.6 KB)
+0014.459 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 3200 files added (on-disk size: 16417.6 KB)
+0014.522 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 3300 files added (on-disk size: 16417.6 KB)
+0014.606 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 3400 files added (on-disk size: 16417.6 KB)
+0014.697 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 3500 files added (on-disk size: 16417.6 KB)
+0014.745 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.3 MB, 5989 files batched, 1001 (3572) added so far); re-opening (prior size: 16417.6 KB)
+0018.318 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 3600 files added (on-disk size: 22866.7 KB)
+0018.388 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 3700 files added (on-disk size: 22866.7 KB)
+0018.457 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 3800 files added (on-disk size: 22866.7 KB)
+0018.522 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 3900 files added (on-disk size: 22866.7 KB)
+0018.589 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 4000 files added (on-disk size: 22866.7 KB)
+0018.672 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 4100 files added (on-disk size: 22866.7 KB)
+0018.737 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 4200 files added (on-disk size: 22866.7 KB)
+0018.802 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 4300 files added (on-disk size: 22866.7 KB)
+0018.869 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 4400 files added (on-disk size: 22866.7 KB)
+0018.937 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 4500 files added (on-disk size: 22866.7 KB)
+0018.987 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.4 MB, 5989 files batched, 1001 (4573) added so far); re-opening (prior size: 22866.7 KB)
+0025.588 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 4600 files added (on-disk size: 25904.2 KB)
+0025.674 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 4700 files added (on-disk size: 25904.2 KB)
+0025.742 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 4800 files added (on-disk size: 25904.2 KB)
+0025.811 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 4900 files added (on-disk size: 25904.2 KB)
+0025.879 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 5000 files added (on-disk size: 25904.2 KB)
+0025.950 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 5100 files added (on-disk size: 25904.2 KB)
+0026.026 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 5200 files added (on-disk size: 25904.2 KB)
+0026.103 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 5300 files added (on-disk size: 25904.2 KB)
+0026.194 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 5400 files added (on-disk size: 25904.2 KB)
+0026.260 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 5500 files added (on-disk size: 25904.2 KB)
+0026.312 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.5 MB, 5989 files batched, 1001 (5574) added so far); re-opening (prior size: 25904.2 KB)
+0029.217 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 5600 files added (on-disk size: 29392.1 KB)
+0029.285 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 5700 files added (on-disk size: 29392.1 KB)
+0029.356 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 5800 files added (on-disk size: 29392.1 KB)
+0029.423 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.tmp: 5900 files added (on-disk size: 29392.1 KB)
+0030.794 (0) Creating zip file manifest (backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.list-temp.tmp)
+0030.853 (0) Successfully created zip file manifest (size: 510880)
+0031.413 (0) Created plugins zip (0) - 30367.1 KB in 31.3 s (970 KB/s) (sha1: 276a2ea8cec70c9a1b09422ddbed89f17d758167, sha256: 242070cecfcc8ea542f9d42ab4a89fc68d23992d06a4940d66faf673d5440cac)
+0031.440 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0031.444 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4da1e8e3bf92c697ff05fe77458309d2)
+0033.235 (0) Google Drive: quota usage: used=417 MB, total=15360 MB, available=14943 MB
+0033.243 (0) Google Drive: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip: Attempting to upload to Google Drive (into folder id: 1dPazr4odkdVtO9fKDal42il-HlB53Ai0)
+0034.849 (0) Googledrive chunked upload: 3.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 65.1 / 74)
+0036.022 (0) Googledrive chunked upload: 10.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 65.1 / 74)
+0037.689 (0) Googledrive chunked upload: 23.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 65.1 / 74)
+0097.744 (0) Google Drive: ERROR: upload exception (UDP_Google_IO_Exception): Operation timed out after 60002 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\MonSite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0111.188 (0) Googledrive chunked upload: 3.4 % uploaded (1048576)
+0112.243 (0) Googledrive chunked upload: 6.7 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 75.2 / 84)
+0147.638 (0) Googledrive chunked upload: 13.5 % uploaded (4194304)
+0148.782 (0) Googledrive chunked upload: 20.2 % uploaded (6291456 - increasing chunk size to 4096 KB - memory usage: 75.2 / 84)
+0150.169 (0) Googledrive chunked upload: 33.7 % uploaded (10485760 - increasing chunk size to 8192 KB - memory usage: 75.2 / 84)
+0152.166 (0) Googledrive chunked upload: 60.7 % uploaded (18874368 - increasing chunk size to 16384 KB - memory usage: 75.2 / 84)
+0155.742 (0) Googledrive chunked upload: 100 % uploaded (18874368)
+0155.772 (0) Google Drive: OK: Archive backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip uploaded in 122.52 seconds
+0155.776 (0) Recording as successfully uploaded: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip
+0155.790 (0) Deleting local file: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip: OK
+0155.808 (0) Beginning creation of dump of themes (split every: 400 MB)
+0157.066 (0) Total entities for the zip file: 228 directories, 919 files (0 skipped as non-modified), 27.5 MB
+0157.206 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0157.414 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0157.540 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0157.712 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0157.942 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0158.098 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0158.228 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0158.319 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (17.8 MB, 701 (701) files added so far); re-opening (prior size: 0 KB)
+0161.007 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip.tmp: 800 files added (on-disk size: 11592.1 KB)
+0161.112 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip.tmp: 900 files added (on-disk size: 11592.1 KB)
+0162.770 (0) Creating zip file manifest (backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip.list-temp.tmp)
+0162.785 (0) Successfully created zip file manifest (size: 67646)
+0163.187 (0) Created themes zip (0) - 19972.6 KB in 7.4 s (2710.6 KB/s) (sha1: 32ea251ce12d4021d06b4376ec0c11be30a03594, sha256: 114cc47cb3147971a95536577ffbde402e10dca36a68799700b80cc60c808b37)
+0163.200 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0163.203 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4da1e8e3bf92c697ff05fe77458309d2)
+0163.783 (0) Google Drive: quota usage: used=446.6 MB, total=15360 MB, available=14913.4 MB
+0163.786 (0) Google Drive: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip: Attempting to upload to Google Drive (into folder id: 1dPazr4odkdVtO9fKDal42il-HlB53Ai0)
+0165.333 (0) Googledrive chunked upload: 5.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 64.3 / 74)
+0166.355 (0) Googledrive chunked upload: 15.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 64.3 / 74)
+0167.686 (0) Googledrive chunked upload: 35.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 64.3 / 74)
+0170.391 (0) Googledrive chunked upload: 76.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 64.3 / 74)
+0177.207 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0177.215 (0) Google Drive: OK: Archive backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip uploaded in 13.43 seconds
+0177.217 (0) Recording as successfully uploaded: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip
+0177.227 (0) Deleting local file: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip: OK
+0177.239 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0177.242 (0) Looking for candidates to backup in: C:\xampp\htdocs\MonSite/wp-content/uploads
+0177.245 (0) finding files: 2023: adding to list (1)
+0177.248 (0) finding files: elementor: adding to list (2)
+0177.250 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0177.276 (0) Total entities for the zip file: 4 directories, 22 files (0 skipped as non-modified), 1.4 MB
+0177.365 (0) Creating zip file manifest (backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-uploads.zip.list-temp.tmp)
+0177.369 (0) Successfully created zip file manifest (size: 1306)
+0177.423 (0) Created uploads zip (0) - 1399.7 KB in 0.2 s (8666.3 KB/s) (sha1: 8096342a49e7e33840cc2fe3eeaa1bb060b34a26, sha256: e776885cc03fd8c53a612ca42eb13ecb89ab4308481e5d413af0df623659c3f4)
+0177.438 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0177.444 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4da1e8e3bf92c697ff05fe77458309d2)
+0177.942 (0) Google Drive: quota usage: used=466.1 MB, total=15360 MB, available=14893.9 MB
+0177.949 (0) Google Drive: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1dPazr4odkdVtO9fKDal42il-HlB53Ai0)
+0179.818 (0) Googledrive chunked upload: 73.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 64.2 / 74)
+0185.741 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0185.757 (0) Google Drive: OK: Archive backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-uploads.zip uploaded in 7.8 seconds
+0185.761 (0) Recording as successfully uploaded: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-uploads.zip
+0185.770 (0) Deleting local file: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-uploads.zip: OK
+0185.784 (0) Beginning backup of other directories found in the content directory (index: 0)
+0185.786 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0185.788 (0) Looking for candidates to backup in: C:\xampp\htdocs\MonSite/wp-content
+0185.789 (0) finding files: cache: skipping: excluded by options
+0185.791 (0) finding files: fonts: adding to list (1)
+0185.794 (0) finding files: index.php: adding to list (2)
+0185.796 (0) finding files: languages: adding to list (3)
+0185.797 (0) finding files: plugins: skipping: this is the plugins directory
+0185.799 (0) finding files: themes: skipping: this is the themes directory
+0185.800 (0) finding files: updraft: skipping: this is the updraft directory
+0185.802 (0) finding files: upgrade: skipping: excluded by options
+0185.803 (0) finding files: uploads: skipping: this is the uploads directory
+0185.919 (0) Total entities for the zip file: 6 directories, 195 files (0 skipped as non-modified), 5.4 MB
+0185.997 (0) Zip: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0186.920 (0) Creating zip file manifest (backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-others.zip.list-temp.tmp)
+0186.926 (0) Successfully created zip file manifest (size: 13615)
+0186.975 (0) Created others zip (0) - 1781 KB in 1.2 s (1533.3 KB/s) (sha1: bbbaa31dee2526d82684c9eca7d7c78fbbc61372, sha256: 7ea7b31b617bdc7f801e22bf02ebee2343461edfe34c559a6d3c01533e432475)
+0186.986 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0186.988 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4da1e8e3bf92c697ff05fe77458309d2)
+0187.544 (0) Google Drive: quota usage: used=467.5 MB, total=15360 MB, available=14892.5 MB
+0187.561 (0) Google Drive: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-others.zip: Attempting to upload to Google Drive (into folder id: 1dPazr4odkdVtO9fKDal42il-HlB53Ai0)
+0189.057 (0) Googledrive chunked upload: 57.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 64.2 / 74)
+0190.924 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0190.964 (0) Google Drive: OK: Archive backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-others.zip uploaded in 3.4 seconds
+0190.968 (0) Recording as successfully uploaded: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-others.zip
+0190.979 (0) Deleting local file: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-others.zip: OK
+0191.004 (0) Saving backup status to database (elements: 8)
+0191.017 (0) Beginning creation of database dump (WordPress DB)
+0191.020 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0191.102 (0) Table wp_options: Total expected rows (via COUNT): 354
+0191.105 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0191.220 (0) Table wp_options: Rows added in this batch (next record: 1129): 350 (uncompressed bytes in this segment=2058149) in 0.17 seconds
+0191.247 (0) Table wp_options: finishing file(s) (2, 343.7 KB)
+0191.273 (0) Table wp_users: Total expected rows (via COUNT): 1
+0191.277 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0191.286 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1184) in 0.03 seconds
+0191.302 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0191.324 (0) Table wp_usermeta: Total expected rows (via COUNT): 33
+0191.327 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0191.333 (0) Table wp_usermeta: Rows added in this batch (next record: 43): 33 (uncompressed bytes in this segment=10023) in 0.02 seconds
+0191.350 (0) Table wp_usermeta: finishing file(s) (2, 2.8 KB)
+0191.373 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0191.377 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.02 seconds
+0191.393 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0191.409 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0191.412 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0191.418 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2001) in 0.02 seconds
+0191.431 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0191.462 (0) Table wp_links: Total expected rows (via COUNT): 0
+0191.469 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.01 seconds
+0191.484 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0191.512 (0) Table wp_postmeta: Total expected rows (via COUNT): 672
+0191.515 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0191.532 (0) Table wp_postmeta: Rows added in this batch (next record: 828): 672 (uncompressed bytes in this segment=183078) in 0.04 seconds
+0191.557 (0) Table wp_postmeta: finishing file(s) (2, 11.9 KB)
+0191.659 (0) Table wp_posts: Total expected rows (via COUNT): 150
+0191.663 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0191.679 (0) Table wp_posts: Rows added in this batch (next record: 157): 150 (uncompressed bytes in this segment=132841) in 0.11 seconds
+0191.711 (0) Table wp_posts: finishing file(s) (2, 15.4 KB)
+0191.741 (0) Table wp_term_relationships: Total expected rows (approximate): 37
+0191.765 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 37 (uncompressed bytes in this segment=1169) in 0.04 seconds
+0191.790 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0191.816 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0191.819 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0191.825 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=966) in 0.03 seconds
+0191.845 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0191.864 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0191.869 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.02 seconds
+0191.891 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0191.908 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0191.911 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0191.917 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=792) in 0.02 seconds
+0191.933 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0191.988 (0) Table wp_e_events: Total expected rows (via COUNT): 2
+0191.993 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0192.012 (0) Table wp_e_events: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=964) in 0.07 seconds
+0192.030 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0192.049 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0192.056 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1979) in 0.02 seconds
+0192.070 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0192.122 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0192.126 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1140) in 0.02 seconds
+0192.139 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0192.156 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0192.159 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=673) in 0.01 seconds
+0192.177 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0192.200 (0) Table wp_frm_fields: Total expected rows (via COUNT): 5
+0192.202 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0192.209 (0) Table wp_frm_fields: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=5805) in 0.03 seconds
+0192.224 (0) Table wp_frm_fields: finishing file(s) (2, 1.1 KB)
+0192.244 (0) Table wp_frm_forms: Total expected rows (via COUNT): 1
+0192.245 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0192.248 (0) Table wp_frm_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2374) in 0.02 seconds
+0192.265 (0) Table wp_frm_forms: finishing file(s) (2, 1.1 KB)
+0192.299 (0) Table wp_frm_item_metas: Total expected rows (via COUNT): 0
+0192.304 (0) Table wp_frm_item_metas: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=628) in 0.03 seconds
+0192.318 (0) Table wp_frm_item_metas: finishing file(s) (2, 0.4 KB)
+0192.337 (0) Table wp_frm_items: Total expected rows (via COUNT): 0
+0192.342 (0) Table wp_frm_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=999) in 0.02 seconds
+0192.363 (0) Table wp_frm_items: finishing file(s) (2, 0.5 KB)
+0192.414 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 26
+0192.426 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0192.441 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 27): 26 (uncompressed bytes in this segment=15231) in 0.07 seconds
+0192.484 (0) Table wp_yoast_indexable: finishing file(s) (2, 3.1 KB)
+0192.498 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 23
+0192.513 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 23 (uncompressed bytes in this segment=1161) in 0.02 seconds
+0192.530 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0192.562 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0192.567 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0192.579 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1234) in 0.04 seconds
+0192.595 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0192.632 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0192.640 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=829) in 0.02 seconds
+0192.734 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0192.763 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 19
+0192.769 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0192.783 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 19): 19 (uncompressed bytes in this segment=3944) in 0.03 seconds
+0192.799 (0) Table wp_yoast_seo_links: finishing file(s) (2, 1.1 KB)
+0192.801 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\MonSite/wp-content/updraft/backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db.gz (line 1976, C:\xampp\htdocs\MonSite\wp-content\plugins\updraftplus\backup.php)
+0192.805 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_options.table.tmpr1130.gz (1/25/fopen): adding to final database dump
+0192.832 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_options.table.gz (2/25/fopen): adding to final database dump
+0192.842 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_users.table.tmpr2.gz (3/25/fopen): adding to final database dump
+0192.845 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_users.table.gz (4/25/fopen): adding to final database dump
+0192.847 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_usermeta.table.tmpr44.gz (5/25/fopen): adding to final database dump
+0192.851 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_usermeta.table.gz (6/25/fopen): adding to final database dump
+0192.856 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_commentmeta.table.tmpr0.gz (7/25/fopen): adding to final database dump
+0192.859 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_commentmeta.table.gz (8/25/fopen): adding to final database dump
+0192.861 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_comments.table.tmpr2.gz (9/25/fopen): adding to final database dump
+0192.863 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_comments.table.gz (10/25/fopen): adding to final database dump
+0192.866 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_links.table.tmpr0.gz (11/25/fopen): adding to final database dump
+0192.868 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_links.table.gz (12/25/fopen): adding to final database dump
+0192.870 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_postmeta.table.tmpr829.gz (13/25/fopen): adding to final database dump
+0192.873 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_postmeta.table.gz (14/25/fopen): adding to final database dump
+0192.876 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_posts.table.tmpr158.gz (15/25/fopen): adding to final database dump
+0192.879 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_posts.table.gz (16/25/fopen): adding to final database dump
+0192.882 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_term_relationships.table.tmpr100001.gz (17/25/fopen): adding to final database dump
+0192.884 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_term_relationships.table.gz (18/25/fopen): adding to final database dump
+0192.886 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_term_taxonomy.table.tmpr5.gz (19/25/fopen): adding to final database dump
+0192.889 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_term_taxonomy.table.gz (20/25/fopen): adding to final database dump
+0192.892 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_termmeta.table.tmpr0.gz (21/25/fopen): adding to final database dump
+0192.895 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_termmeta.table.gz (22/25/fopen): adding to final database dump
+0192.897 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_terms.table.tmpr5.gz (23/25/fopen): adding to final database dump
+0192.899 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_terms.table.gz (24/25/fopen): adding to final database dump
+0192.901 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_e_events.table.tmpr3.gz (25/25/fopen): adding to final database dump
+0192.904 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_e_events.table.gz (26/25/fopen): adding to final database dump
+0192.907 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_e_submissions.table.tmpr0.gz (27/25/fopen): adding to final database dump
+0192.909 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_e_submissions.table.gz (28/25/fopen): adding to final database dump
+0192.911 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (29/25/fopen): adding to final database dump
+0192.914 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_e_submissions_actions_log.table.gz (30/25/fopen): adding to final database dump
+0192.916 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_e_submissions_values.table.tmpr0.gz (31/25/fopen): adding to final database dump
+0192.919 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_e_submissions_values.table.gz (32/25/fopen): adding to final database dump
+0192.921 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_frm_fields.table.tmpr6.gz (33/25/fopen): adding to final database dump
+0192.924 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_frm_fields.table.gz (34/25/fopen): adding to final database dump
+0192.926 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_frm_forms.table.tmpr2.gz (35/25/fopen): adding to final database dump
+0192.928 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_frm_forms.table.gz (36/25/fopen): adding to final database dump
+0192.931 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_frm_item_metas.table.tmpr0.gz (37/25/fopen): adding to final database dump
+0192.934 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_frm_item_metas.table.gz (38/25/fopen): adding to final database dump
+0192.936 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_frm_items.table.tmpr0.gz (39/25/fopen): adding to final database dump
+0192.939 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_frm_items.table.gz (40/25/fopen): adding to final database dump
+0192.941 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_yoast_indexable.table.tmpr28.gz (41/25/fopen): adding to final database dump
+0192.943 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_yoast_indexable.table.gz (42/25/fopen): adding to final database dump
+0192.967 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (43/25/fopen): adding to final database dump
+0192.969 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_yoast_indexable_hierarchy.table.gz (44/25/fopen): adding to final database dump
+0192.974 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_yoast_migrations.table.tmpr25.gz (45/25/fopen): adding to final database dump
+0192.977 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_yoast_migrations.table.gz (46/25/fopen): adding to final database dump
+0192.981 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_yoast_primary_term.table.tmpr0.gz (47/25/fopen): adding to final database dump
+0192.984 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_yoast_primary_term.table.gz (48/25/fopen): adding to final database dump
+0192.986 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_yoast_seo_links.table.tmpr20.gz (49/25/fopen): adding to final database dump
+0192.989 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db-table-wp_yoast_seo_links.table.gz (50/25/fopen): adding to final database dump
+0193.058 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db.gz: finished writing out complete database file (388.6 KB)
+0193.120 (0) Total database tables backed up: 25 (backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db.gz, size: 398057, sha1: efd5ed152273b2246d6370daaeefc8ce6d743756, sha256: ffdd000d1e1c349040ecf550b8fae49f16490963fe91efce8af40af930146475)
+0193.153 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip: plugins: This file has already been successfully uploaded
+0193.157 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip: themes: This file has already been successfully uploaded
+0193.161 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-uploads.zip: uploads: This file has already been successfully uploaded
+0193.163 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-others.zip: others: This file has already been successfully uploaded
+0193.165 (0) backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0193.167 (0) Saving backup history. Total backup size: 52.6 MB
+0193.174 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0193.181 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0193.184 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4da1e8e3bf92c697ff05fe77458309d2)
+0193.695 (0) Google Drive: quota usage: used=469.2 MB, total=15360 MB, available=14890.8 MB
+0193.698 (0) Google Drive: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db.gz: Attempting to upload to Google Drive (into folder id: 1dPazr4odkdVtO9fKDal42il-HlB53Ai0)
+0196.207 (0) Googledrive chunked upload: 100 % uploaded
+0196.223 (0) Google Drive: OK: Archive backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db.gz uploaded in 2.52 seconds
+0196.226 (0) Recording as successfully uploaded: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db.gz
+0196.234 (0) Deleting local file: backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-db.gz: OK
+0196.241 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0196.247 (0) Number of backup sets in history: 6; groups (db): 1
+0196.249 (0) Examining (for databases) backup set with group_id=0, nonce=dc24b7b0972f, datestamp=1684949174 (May 24 2023 17:26:14)
+0196.252 (0) This backup set is the backup set just made, so will not be deleted.
+0196.252 (0) Examining (for databases) backup set with group_id=0, nonce=98730875d4bc, datestamp=1684947516 (May 24 2023 16:58:36)
+0196.252 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0196.254 (0) Examining (for databases) backup set with group_id=0, nonce=34df5c275e38, datestamp=1684934778 (May 24 2023 13:26:18)
+0196.254 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0196.254 (0) Examining (for databases) backup set with group_id=0, nonce=aa36158a36ce, datestamp=1684927577 (May 24 2023 11:26:17)
+0196.254 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0196.254 (0) Examining (for databases) backup set with group_id=0, nonce=b1496d247f82, datestamp=1684920384 (May 24 2023 09:26:24)
+0196.254 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0196.254 (0) Examining (for databases) backup set with group_id=0, nonce=162ba6e3ea8f, datestamp=1684915292 (May 24 2023 08:01:32)
+0196.254 (0) 1684915292: db: this set includes a database (backup_2023-05-24-1001_Site_de_la_prsidence_162ba6e3ea8f-db.gz); db count is now 5
+0196.254 (0) 1684915292: db: over retain limit (5); will delete this database
+0198.383 (0) Google Drive: backup_2023-05-24-1001_Site_de_la_prsidence_162ba6e3ea8f-db.gz: Deletion successful
+0198.403 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0198.406 (0) Number of backup sets in history: 6; groups (files): 1
+0198.412 (0) Examining (for files) backup set with nonce=dc24b7b0972f, datestamp=1684949174 (May 24 2023 17:26:14)
+0198.412 (0) This backup set is the backup set just made, so will not be deleted.
+0198.414 (0) This backup set is the backup set just made, so will not be deleted.
+0198.414 (0) This backup set is the backup set just made, so will not be deleted.
+0198.415 (0) This backup set is the backup set just made, so will not be deleted.
+0198.415 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0198.419 (0) Examining (for files) backup set with nonce=98730875d4bc, datestamp=1684947516 (May 24 2023 16:58:36)
+0198.419 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0198.420 (0) Examining (for files) backup set with nonce=34df5c275e38, datestamp=1684934778 (May 24 2023 13:26:18)
+0198.420 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0198.420 (0) Examining (for files) backup set with nonce=aa36158a36ce, datestamp=1684927577 (May 24 2023 11:26:17)
+0198.420 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0198.420 (0) Examining (for files) backup set with nonce=b1496d247f82, datestamp=1684920384 (May 24 2023 09:26:24)
+0198.420 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0198.420 (0) Examining (for files) backup set with nonce=162ba6e3ea8f, datestamp=1684915292 (May 24 2023 08:01:32)
+0198.420 (0) plugins: over retain limit (5); will delete this file entity
+0198.420 (0) themes: over retain limit (5); will delete this file entity
+0198.420 (0) uploads: over retain limit (5); will delete this file entity
+0198.420 (0) others: over retain limit (5); will delete this file entity
+0200.428 (0) Google Drive: backup_2023-05-24-1001_Site_de_la_prsidence_162ba6e3ea8f-others.zip: Deletion successful
+0201.225 (0) Google Drive: backup_2023-05-24-1001_Site_de_la_prsidence_162ba6e3ea8f-uploads.zip: Deletion successful
+0202.091 (0) Google Drive: backup_2023-05-24-1001_Site_de_la_prsidence_162ba6e3ea8f-themes.zip: Deletion successful
+0203.064 (0) Google Drive: backup_2023-05-24-1001_Site_de_la_prsidence_162ba6e3ea8f-plugins.zip: Deletion successful
+0203.160 (0) This backup set is now empty; will remove from history
+0203.166 (0) Deleting log file (log.162ba6e3ea8f.txt)
+0203.171 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0203.188 (0) Resume backup (dc24b7b0972f, 0): finish run
+0203.199 (0) Decremented the semaphore (fd) by 1
+0203.206 (0) Semaphore (fd) unlocked
+0203.213 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0203.230 (0) The backup apparently succeeded and is now complete
+0203.234 (0) Deleting zip manifest (backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-plugins.zip.list.tmp)
+0203.237 (0) Deleting zip manifest (backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-themes.zip.list.tmp)
+0203.242 (0) Deleting zip manifest (backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-uploads.zip.list.tmp)
+0203.246 (0) Deleting zip manifest (backup_2023-05-24-1926_Site_de_la_prsidence_dc24b7b0972f-others.zip.list.tmp)
+0203.250 (0) No email will/can be sent - the user has not configured an email address.
+0203.252 (0) La sauvegarde a apparemment réussi et est maintenant terminée
